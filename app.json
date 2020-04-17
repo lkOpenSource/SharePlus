@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "SharePlus",
+    "description":"Share food to the Needy without wasting the excess food",
+    "slug": "SharePlus",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.opensource.shareplus",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.opensource.shareplus",
+      "versionCode": 1
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#6ab04c",
+      "barStyle":"light-content"
+    },
+    "androidNavigationBar": {
+        "visible": "sticky-immersive"
+      }
+  }
+}
